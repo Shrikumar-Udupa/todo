@@ -20,8 +20,8 @@ jobs:
         GITHB_TOKEN: ${{ secrets.GIT_TOKEN }}
       with:
         args: >
-          -Dsonar.projectKey=cloudkubesec \
-          -Dsonar.organization=cloudkubesec \
+          -Dsonar.projectKey=cloudkubesec 
+          -Dsonar.organization=cloudkubesec 
 
 
     - name: Use Node.js 14
