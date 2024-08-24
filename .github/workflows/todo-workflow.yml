@@ -26,8 +26,6 @@ jobs:
           -Dsonar.projectKey=Shrikumar-Udupa_todo
           -Dsonar.organization=cloudkubesec
           -Dsonar.projectName=todo 
-          
-
 
     - name: Use Node.js 14
       uses: actions/setup-node@v3
