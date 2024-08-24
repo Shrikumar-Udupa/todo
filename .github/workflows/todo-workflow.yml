@@ -23,7 +23,7 @@ jobs:
         GITHB_TOKEN: ${{ secrets.GIT_TOKEN }}
       with:
         args: >
-          -Dsonar.projectKey=cloudkubesec 
+          -Dsonar.projectKey=Shrikumar-Udupa_todo
           -Dsonar.organization=cloudkubesec
           -Dsonar.projectName=todo 
           
