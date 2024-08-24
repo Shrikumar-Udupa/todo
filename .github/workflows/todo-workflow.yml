@@ -24,7 +24,7 @@ jobs:
       with:
         args: >
           -Dsonar.projectKey=todo 
-          -Dsonar.organization=cloudkubesec
+          -Dsonar.organization=CloudKubeSec
           -Dsonar.projectName=todo 
           
 
